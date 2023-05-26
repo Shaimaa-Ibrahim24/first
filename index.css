@@ -1,0 +1,113 @@
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #352f5b;
+    color: white;
+}
+button{
+    all: unset
+}
+h1{
+    text-align: center;
+    font-size: 4em;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    background-image: linear-gradient(to top,#352f5b,rgb(255, 255, 255, .2))
+}
+.task{
+    border: 2px solid red;
+    margin: 30px auto;
+    width: 70vw;
+    padding: 20px;
+    background: rgba( 122, 163, 235, 0.4 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 18px );
+-webkit-backdrop-filter: blur( 18px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+border-bottom: 3px solid white;
+display: flex;
+justify-content: space-between;
+}
+.icon-star,
+.icon-bin{
+    opacity: 0.4;
+}
+.icon-star:hover{
+    opacity: 1;
+    color: orange;
+    font-size: 29px;
+}
+.icon-bin{
+    margin-right: 10px;
+    font-size: 27px;
+}
+.icon-bin:hover{
+    opacity: 1;
+    color: orange;
+    font-size: 29px;
+}
+ .icon-sad{
+    color: orange;
+ }
+.icon{
+    font-size: 24px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.icon:hover{
+    font-size: 26px;
+}
+p{
+    font-size: 22px;
+}
+h2{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+form{
+    text-align: center;
+}
+form input{
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    width: 35vw;
+    font-size: 21px;
+    text-align: center;
+}
+form input:focus::placeholder{
+    opacity: 0;
+}
+.icon-upload{
+font-size: 40px;
+margin-left: 17px;
+position: relative;
+top: 9px;
+transition: 0.3s;
+}
+.icon-upload:hover{
+    font-size: 43px;
+    color: aqua;
+}
+.icon-heart{
+    color: red;
+    font-size: 22px;
+    transition: 0.3s;
+}
+.icon-heart:hover{
+    font-size: 26px;
+}
+.finish{
+    text-decoration-line: line-through;
+    text-decoration-style: wavy;
+}
+.orange{
+    color: orange;
+    opacity: 1;
+}
